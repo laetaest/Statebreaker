@@ -1,98 +1,135 @@
 # StateBreaker
 
-**Learn U.S. geography through a ball-and-paddle game.**
+**Learn U.S. geography through an interactive ball-and-paddle game.**
 
-StateBreaker is an educational Android app built with **MIT App Inventor** by **Team StateBreaker**. It combines arcade gameplay with a U.S. map and regional information screens, giving players a playful way to explore state names, abbreviations, and locations.
+StateBreaker is an educational Android game built with **MIT App Inventor**. It combines arcade-style gameplay with U.S. geography, helping players become more familiar with state names, abbreviations, and locations.
 
-## Why StateBreaker?
+The game was developed for the **Congressional App Challenge**.
 
-Learning state locations can involve a lot of memorization. StateBreaker brings that practice into a game: players keep a ball in play, hit blocks labeled with state abbreviations, and see states highlighted on the map. Regional information screens provide another way to explore the geography behind the game.
+## About the Game
+
+Learning U.S. geography often involves memorizing state names and locations. StateBreaker offers a more interactive approach by combining geography with a ball-and-paddle game.
+
+Players control a paddle to keep a ball moving and hit blocks labeled with U.S. state abbreviations. As the game progresses, state images and geographic information help connect gameplay with learning.
 
 ## Features
 
-- **Geography meets arcade gameplay:** a ball, a draggable paddle, and blocks labeled with U.S. state abbreviations.
-- **Visual map feedback:** state images connect gameplay to locations on the U.S. map.
-- **Score and lives:** keep track of progress during each game.
-- **Start, pause, and resume:** control the pace of play.
-- **Results and replay:** view the final score and play again.
-- **Regional learning screens:** explore West, Mountain States, Middle West, Southwest, Northeast, and Southeast.
-- **Editable block code:** open the complete project in MIT App Inventor to inspect the screens and logic.
+- **Arcade-style gameplay:** Control a paddle and keep the ball in play.
+- **State abbreviation blocks:** Hit blocks representing U.S. states.
+- **Geographic learning:** Explore U.S. state names, abbreviations, and locations.
+- **Visual map feedback:** See states highlighted on a U.S. map during gameplay.
+- **Score and lives:** Track progress throughout the game.
+- **Game controls:** Start, pause, and resume gameplay.
+- **Results and replay:** Review the game outcome and play again.
+- **Regional information:** Explore geographic regions of the United States.
 
-## How to play
+## How to Play
 
 1. Tap **Start** to begin.
-2. Drag the paddle to keep the ball in play and hit the state blocks.
-3. Watch the map highlights and your score as you play.
-4. Tap **Pause** to stop temporarily, then **Resume** to continue.
-5. On the results screen, choose **Play Again** for another game or **Info** to explore the regions.
-6. Select a region to view its information, then use **Back** to return.
+2. Drag the paddle to keep the ball in play.
+3. Hit blocks labeled with state abbreviations.
+4. Watch the map highlights and track your score.
+5. Use **Pause** to stop temporarily and **Resume** to continue.
+6. After the game ends, select **Play Again** to restart or **Info** to explore regional information.
 
-## Open and run the project
+## Download and Play
 
-### What you need
+StateBreaker is available as an Android APK.
 
-- A computer with a browser and access to [MIT App Inventor](https://ai2.appinventor.mit.edu/).
-- An account that can sign in to App Inventor.
-- An Android phone or tablet with **MIT AI2 Companion** for live testing.
-- The computer and Android device connected to the same Wi-Fi network.
+**[Download StateBreaker for Android](https://github.com/laetaest/Statebreaker/raw/refs/heads/main/statebreaker.apk)**
 
-This project includes an external App Inventor extension. Android is the intended testing platform; iOS compatibility has not been verified.
+### Installation
 
-### Import the source
+1. Download `statebreaker.apk` to an Android device.
+2. Open the downloaded APK file.
+3. If prompted, allow installation from the selected source.
+4. Install the application.
+5. Open StateBreaker and start playing.
 
-1. Download [StateBreaker.aia](StateBreaker.aia) from this repository. On GitHub, open the file and choose **Download raw file** if necessary.
-2. Sign in to [MIT App Inventor](https://ai2.appinventor.mit.edu/).
-3. Choose **Projects → Import project (.aia) from my computer**.
-4. Select `StateBreaker.aia` and complete the import. If prompted about an existing project name, choose a different name to preserve your existing project.
-5. Open **Designer** to inspect the layouts or **Blocks** to inspect the program logic.
+The APK has been tested on an Android device.
 
-### Test with an Android device
+**Platform:** Android
 
-1. Open the imported project in App Inventor.
-2. Open **MIT AI2 Companion** on your Android device.
-3. In App Inventor, choose **Connect → AI Companion**.
-4. Scan the displayed QR code with Companion, or enter the connection code.
-5. Once the app loads, follow the gameplay instructions above.
+The APK is provided for direct installation and is not distributed through Google Play.
 
-See the [official Companion connection guide](https://appinventor.mit.edu/explore/ai2/setup-device-wifi) if you need help connecting.
+## Source Code
 
-**Current distribution:** editable App Inventor source. A standalone APK is not included in this preparation package.
+StateBreaker was developed using **MIT App Inventor**, a visual programming platform that uses blocks to create application logic.
 
-## Repository structure
+The complete App Inventor project is available as an `.aia` file.
+
+**[Download StateBreaker Source (.aia)](https://github.com/laetaest/Statebreaker/raw/refs/heads/main/statebreaker.aia)**
+
+### Open the Project in MIT App Inventor
+
+1. Visit [MIT App Inventor](https://ai2.appinventor.mit.edu/).
+2. Sign in to your account.
+3. Select **Projects → Import project (.aia) from my computer**.
+4. Choose the downloaded `statebreaker.aia` file.
+5. Open the **Designer** to inspect the application's screens and components.
+6. Open **Blocks** to explore the visual programming logic.
+
+You can also test the imported project using MIT AI2 Companion or build a new APK.
+
+## Repository Structure
 
 ```text
-StateBreaker.aia                 Complete importable App Inventor project
-README.md                       Project overview and usage instructions
-appinventor-source/
-├── src/                        Screen layouts (.scm) and block code (.bky)
-├── assets/                     Maps, images, audio, and bundled extension
-└── youngandroidproject/        App Inventor project settings
+Statebreaker/
+├── README.md
+├── statebreaker.aia
+├── statebreaker.apk
+└── test.aia
 ```
 
-Use the `.aia` file to import the app. The expanded files are also provided so readers can inspect individual layouts, blocks, and assets directly on GitHub.
+| File | Description |
+|---|---|
+| `README.md` | Project overview and instructions |
+| `statebreaker.aia` | MIT App Inventor source project |
+| `statebreaker.apk` | Installable Android application |
+| `test.aia` | Earlier version of the project. Use `statebreaker.aia` for the current version. |
 
-## Built with
+The `.aia` file contains the App Inventor project, including its visual programming blocks, screen definitions, and bundled assets.
 
-| Component | Purpose |
-| --- | --- |
-| MIT App Inventor | Visual screen design and block-based programming |
-| Canvas, Ball, and ImageSprite | Game area, ball, paddle, and map graphics |
-| DynamicComponents extension | Creating components at runtime |
-| TinyDB | Passing saved game data between screens |
-| Sound and Clock components | Audio feedback and timed behavior |
+## Technologies Used
 
-StateBreaker uses the [DynamicComponents extension](https://github.com/ysfchn/DynamicComponents-AI2) to create game components while the app is running.
+- **MIT App Inventor** — Visual application development
+- **Block-based programming** — Game logic and interactions
+- **Android** — Target platform
+- **GitHub** — Source code hosting and project documentation
+
+## Project Goals
+
+StateBreaker was created to explore how interactive games can make geography learning more engaging.
+
+The project aims to:
+
+- Combine educational content with enjoyable gameplay.
+- Encourage familiarity with U.S. state abbreviations and locations.
+- Provide visual connections between state names and geographic regions.
+- Demonstrate the development of a functional Android game using visual programming.
+
+## Congressional App Challenge
+
+StateBreaker was developed as a project for the Congressional App Challenge.
+
+This repository provides access to the application, its MIT App Inventor source project, and documentation.
+
+## Credits and Licensing
+
+**Project:** StateBreaker
+
+**Development platform:** MIT App Inventor
+
+StateBreaker uses the [DynamicComponents extension](https://github.com/ysfchn/DynamicComponents-AI2) to create game components while the app is running. Third-party materials remain subject to their applicable licenses.
+
+A separate open-source license for this repository has not yet been specified.
 
 ## Feedback
 
-If Issues is enabled for this repository, report a problem there. Include your Android version, device model, the screen where the problem occurred, and the steps needed to reproduce it. Screenshots are helpful when a layout looks incorrect.
+Feedback and suggestions are welcome through this repository's GitHub Issues section.
 
-## Credits and licensing
+## Thank You!
 
-**Project team:** Team StateBreaker.
+Thank you for checking out StateBreaker!
 
-The project includes third-party components, images, and audio. Asset origins and the applicable license notices are being reviewed. This preparation package does not yet include a project-wide license granting reuse rights; public availability alone does not establish permission to reuse every asset.
-
-## Thank you
-
-Thanks for checking out StateBreaker! We hope you enjoy playing and learning about U.S. geography.
+We hope you enjoy playing the game and exploring U.S. geography.
